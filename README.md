@@ -2,6 +2,13 @@
 ## Description:
 This notebook demonstrates how to build a machine learning model to predict the price of used motorbikes based on various features like mileage, power, make/model, version, and other factors. The model uses a Random Forest Regressor, and we employ several machine learning techniques such as data pre-processing, feature encoding, normalization, and hyperparameter tuning to achieve an accurate prediction.
 
+The dataset has been provided by Mexwell on Keggle: https://www.kaggle.com/datasets/mexwell/motorbike-marketplace
+
+### Model accuracy at the moment
+ - Cross-validated MSE (in thousands of €): 0.0823
+ - Test MSE (in thousands of €): 0.0780
+
+
 ## Steps:
 1. Data Loading & Cleaning:
 2. The motorbike dataset is loaded from a CSV file.
